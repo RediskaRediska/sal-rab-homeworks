@@ -85,3 +85,4 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
     // Конец решения задачи №2.3.
 
     return {discount: discountSum, freeShipping, shipping: shippingSum, total: totalSum};
+}
